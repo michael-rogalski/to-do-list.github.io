@@ -204,36 +204,3 @@ li {
   opacity: 1;
   right: 0;
 }
-
-hr.solid1 {
-  content: "";
-  position: absolute;
-  top: 500px;
-  left: 20px;
-  border-top: 5px solid white;
-  transform: rotate(-30deg);
-  border-color: rgb(175, 53, 53);
-  width: 130%;
-}
-
-hr.solid2 {
-  content: "";
-  position: absolute;
-  top: 600px;
-  left: 20px;
-  border-top: 5px solid white;
-  transform: rotate(-30deg);
-  border-color: rgb(175, 53, 53);
-  width: 130%;
-}
-
-hr.solid3 {
-  content: "";
-  position: absolute;
-  top: 700px;
-  left: 20px;
-  border-top: 5px solid white;
-  transform: rotate(-30deg);
-  border-color: rgb(175, 53, 53);
-  width: 130%;
-}
