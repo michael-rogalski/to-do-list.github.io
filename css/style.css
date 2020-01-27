@@ -1,0 +1,239 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+*:focus {outline:none !important}
+
+#error-message1 {
+  font-size: small;
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: Helvetica;
+  color: black;
+}
+
+#error-message2 {
+  font-size: small;
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-top: 25px;
+  font-family: Helvetica;
+  color: black;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  font-weight: 900;
+  font-size: 64px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: black;
+  font-family: "Annie Use Your Telescope", cursive;
+  font-size: 44px;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-left: 50px;
+  font-family: Helvetica;
+  color: white;
+  font-size: x-small;
+}
+
+.icon {
+  color: white;
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 332px;
+  font-size: 60px;
+}
+
+.icon-two {
+  color: white;
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 352px;
+  font-size: 60px;
+}
+
+.icon-three {
+  color: white;
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 373px;
+  font-size: 60px;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+#task-input {
+  margin-left: 50px;
+  height: 30px;
+  margin-bottom: 15px;
+  padding: 5px 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px #BBB;
+}
+
+#add-task-button {
+  margin-left: 50px;
+}
+
+#first-span {
+  margin-left: 70px;
+  font-family: Helvetica;
+  color: white;
+}
+
+#counter {
+  font-family: Helvetica;
+  position: relative;
+  color: white;
+}
+
+#task-list {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 450px;
+  list-style-type: none;
+  z-index: 9999;
+  width: 800px;
+}
+
+#task-to-finish {
+  margin-top: 35px;
+}
+
+#removeFinishedTasksButton {
+  margin-left: 50px;
+  display: block;
+  margin-top: 10px;
+  padding: 2px;
+  border: 5px solid white;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+li {
+  margin-bottom: -20px;
+}
+
+.main-container {
+  position: absolute;
+}
+
+.background-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.brown-background {
+  display: flex;
+  width: 430px;
+  height: 100%;
+  background-color: brown;
+}
+.white-background {
+  display: flex;
+  /* width: 80%; */
+  height: 100%;
+  background-color: white;
+  z-index: 9999;
+}
+
+#add-task-button {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 118px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+#add-task-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#add-task-button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#add-task-button:hover span {
+  padding-right: 25px;
+}
+
+#add-task-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+hr.solid1 {
+  content: "";
+  position: absolute;
+  top: 500px;
+  left: 20px;
+  border-top: 5px solid white;
+  transform: rotate(-30deg);
+  border-color: rgb(175, 53, 53);
+  width: 130%;
+}
+
+hr.solid2 {
+  content: "";
+  position: absolute;
+  top: 600px;
+  left: 20px;
+  border-top: 5px solid white;
+  transform: rotate(-30deg);
+  border-color: rgb(175, 53, 53);
+  width: 130%;
+}
+
+hr.solid3 {
+  content: "";
+  position: absolute;
+  top: 700px;
+  left: 20px;
+  border-top: 5px solid white;
+  transform: rotate(-30deg);
+  border-color: rgb(175, 53, 53);
+  width: 130%;
+}
